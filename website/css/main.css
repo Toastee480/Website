@@ -11,6 +11,10 @@ h1 {
 
 body {
   background: url(/img/starbg.gif) repeat top left;
+  background-color: white;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
   color: white;
   font-family: "7serif";
   font-size: 30px;
@@ -37,5 +41,6 @@ a {
   border-style: solid;
   border-width: 5px;
   border-color: white;
+  padding: 10px;
   padding-bottom: 15px;
 }
