@@ -50,14 +50,6 @@ footer {
   border-width: 5px;
   border-color: white;
   clear:both;
-}
-
-.footerL {
-  float: left;
-  padding: 20px;
-}
-
-.footerR {
-  float: right;
-  padding: 20px;
+  display: flex;
+  justify-content: space-between;
 }
