@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "7serif";
+    src: url(/font/Seven-Serif.ttf);
+}
+
+body {
+  background-color: black;
+  color: white;
+  font-family: "7serif";
+  font-size: 60px;
+  text-align: center;
+  margin: auto;
+}
