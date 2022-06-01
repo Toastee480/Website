@@ -52,4 +52,5 @@ footer {
   clear:both;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
 }
