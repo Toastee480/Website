@@ -20,8 +20,7 @@ a {
   color: #5f5f5f;
   text-decoration: underline;
   font-size: 45px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  padding: 20px;
 }
 
 a:visited {
@@ -29,5 +28,5 @@ a:visited {
 }
 
 audio {
-  padding: 20px;
+  padding: 40px;
 }
