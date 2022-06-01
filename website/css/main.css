@@ -16,7 +16,7 @@ body {
   width: 900px;
   text-align: center;
   margin: auto;
-  padding-top: 20px;
+  padding: 20px;
 }
 
 main {
@@ -41,4 +41,17 @@ img {
   image-rendering: pixelated;                 /* Chrome */
   image-rendering: optimize-contrast;         /* CSS3 Proposed                  */
   -ms-interpolation-mode: nearest-neighbor;   /* IE8+                           */
+}
+
+#footer {
+  font-size: 15;
+  clear: both;
+}
+
+.footerL {
+  float: left;
+}
+
+.footerR {
+  float: right;
 }
