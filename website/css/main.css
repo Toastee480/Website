@@ -6,16 +6,18 @@
 h1 {
   text-decoration: underline;
   font-size: 60px;
+  padding: 10px;
 }
 
 body {
-    background: url(/img/starbg.gif) repeat top left;
-    color: white;
-    font-family: "7serif";
-    font-size: 30px;
-    margin-left: 500px;
-    margin-right: 500px;
-    text-align: center;
+  background: url(/img/starbg.gif) repeat top left;
+  color: white;
+  font-family: "7serif";
+  font-size: 30px;
+  margin-left: 500px;
+  margin-right: 500px;
+  padding: 10px;
+  text-align: center;
 }
 
 a {
@@ -35,4 +37,5 @@ a {
   border-style: solid;
   border-width: 5px;
   border-color: white;
+  padding-bottom: 15px;
 }
