@@ -19,18 +19,18 @@ body {
 }
 
 a {
-  color: #3f3f3f;
+  color: #5f5f5f;
   text-decoration: underline;
 }
 
 .header {
   background-color: black;
-  border: 5px;
+  border-width: 5px;
   border-color: white;
 }
 
 .main {
   background-color: black;
-  border: 5px;
+  border-width: 5px;
   border-color: white;
 }
