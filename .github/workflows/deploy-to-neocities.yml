@@ -22,11 +22,11 @@ jobs:
     #  uses: actions/setup-node@v1
     #  with:
     #    node-version: 12
-    #- name: Install deps and build
-    #  run: |
-    #    npm i
-    #    npm run build
-    #
+    - name: Install deps and build
+      run: |
+        npm i
+        npm run build
+    
     # When the dist_dir is ready, deploy it to neocities
     
     - name: Deploy to neocities
