@@ -17,3 +17,20 @@ body {
     margin-right: 500px;
     text-align: center;
 }
+
+a {
+  color: #3f3f3f;
+  text-decoration: underline;
+}
+
+.header {
+  background-color: black;
+  border: 5px;
+  border-color: white;
+}
+
+.main {
+  background-color: black;
+  border: 5px;
+  border-color: white;
+}
