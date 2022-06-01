@@ -13,9 +13,10 @@ body {
   color: white;
   font-family: "7serif";
   font-size: 30px;
-  width: 750px;
+  width: 1000px;
   text-align: center;
   margin: auto;
+  padding-top: 20px;
 }
 
 main {
