@@ -54,9 +54,11 @@ footer {
 .footerL {
   float: left;
   padding: 20px;
+  width: 50%;
 }
 
 .footerR {
   float: right;
   padding: 20px;
+  width: 50%;
 }
