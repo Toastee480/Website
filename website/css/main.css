@@ -6,35 +6,27 @@
 h1 {
   text-decoration: underline;
   font-size: 60px;
-  background-color: black;
-  border-style: solid;
-  border-width: 5px;
-  border-color: white;
 }
 
 body {
   background: url(/img/starbg.gif) repeat top left;
-  background-color: white;
-  border-style: solid;
-  border-width: 5px;
-  border-color: white;
   color: white;
   font-family: "7serif";
   font-size: 30px;
   margin-left: 500px;
   margin-right: 500px;
-  padding: 20px;
   text-align: center;
+}
+
+main {
+  background-color: black;
+  border-style: solid;
+  border-width: 5px;
+  border-color: white;
+  padding: 20px;
 }
 
 a {
   color: #5f5f5f;
   text-decoration: underline;
-}
-
-.main {
-  background-color: black;
-  border-style: solid;
-  border-width: 5px;
-  border-color: white;
 }
