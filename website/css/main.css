@@ -11,4 +11,7 @@ body {
     background: url(/img/starbg.gif) repeat top left;
     color: white;
     font-family: "7serif";
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
 }
