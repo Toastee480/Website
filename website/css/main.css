@@ -65,6 +65,10 @@ a {
   text-decoration: underline;
 }
 
+audio {
+  width: 80px;
+}
+
 img {
   image-rendering: optimizeSpeed;             /* STOP SMOOTHING, GIVE ME SPEED  */
   image-rendering: -moz-crisp-edges;          /* Firefox                        */
