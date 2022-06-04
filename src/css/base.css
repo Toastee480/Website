@@ -1,0 +1,33 @@
+/* Fonts */
+@font-face {font-family: "SevenSerif"; src: url(/font/Seven-Serif.ttf);}
+@font-face {font-family: "GothicPixels"; src: url(/font/GothicPixels.ttf);}
+
+/* Misc. Fixes and Variables */
+img {image-rendering: pixelated; image-rendering: -moz-crisp-edges; image-rendering: crisp-edges;}
+img.block {display: block;}
+:root {
+  --gap: 10px;
+  --bg: #0f0f22;
+  --border: solid #373652 2px;
+}
+
+/* Main Layout Set */
+body {
+  background-color: black; background: url(/img/stars123.gif) repeat top left;
+  font-size: 1.2em; font-family: "SevenSerif"; color: #bbbdd5;
+  width: 800px; margin: var(--gap) auto;
+  display: flex; flex-direction: column; gap: var(--gap);
+}
+header {border: var(--border); background-color: var(--bg); padding: 10px; text-align: center;}
+#content {display: flex; gap: var(--gap);}
+aside {width: 20%; display: flex; flex-direction: column; gap: var(--gap);}
+main {width: 80%; display: flex; flex-direction: column; gap: var(--gap);}
+section {border: var(--border); background-color: var(--bg); padding: 10px;}
+section.nopad {padding: 0px;}
+section.mainNav {display: flex; flex-direction: column; gap: var(--gap);}
+footer {border: var(--border); background-color: var(--bg); padding: 10px;}
+
+/* Individual Elements */
+h1 {font-family: "GothicPixels"; font-size: 2.5em; margin: 5px 0px;}
+h2 {font-family: "GothicPixels"; font-size: 1.2em; margin: 5px 0px;}
+a {color: #6a6b80;}
