@@ -2,41 +2,84 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Jamiezone</title>
-    <link rel="stylesheet" href="/css/main.css">
+    <title>Welcome...</title>
+    <style media="screen">
+      :root {
+        --gap: 10px;
+        --bg: #000000;
+        --border: double #ff3300 4px;
+        --border-radius: 5px;
+        --bullet-img: url(/img/skeletons/skullspin.gif);
+      }
+      @font-face {font-family: "Main"; src: url(/font/alagard.ttf);}
+      @font-face {font-family: "Heading"; src: url(/font/GothicPixels.ttf);}
+      body {
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(25, 0, 0, 0.8)),
+        url(/img/bgfire3.jpg) repeat top left;
+        font-size: 1em; color: #ffffff;
+      }
+      a {color: #ff0000;}
+      #statuscafe {
+        padding-bottom: 10px;
+        background-color: black;
+      }
+      #statuscafe-username {
+        margin-bottom: .5em;
+      }
+      #statuscafe-content {
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="/css/master.css">
   </head>
   <body>
     <header>
-      <h1>WELCOME TO THE JAMIEZONE</h1>
+      <img src="/img/torch.gif">
+      <img src="/img/title.gif" alt="BEWARE!">
+      <img src="/img/torch.gif">
     </header>
-    <main>
-      <p>Hey! I'm Jamie! This site is still very much a work in progress, but
-      eventually it'll serve as a personal website and as a way to access my
-      other projects, contact info, social media, and anything else I feel like
-      hosting. For now, here's a list of important links.</p>
-      <ul>
-        <li><a href="https://twitter.com/UmJammerRammy/">Twitter</a></li>
-        <li><a href="https://discordapp.com/users/981376318077796413/">Discord</a></li>
-        <li><a href="https://the80s.zone/">The 80s Zone</a></li>
-        <li><a href="http://mypartz.sexy">MYSTERY LINK!!!</a></li>
-      </ul>
-      <img class="weedwalker" src="/img/weedwalker.gif" width="350" alt="weedwalker"> <br>
-      <audio src="https://b.catgirlsare.sexy/HUGygybskJYe.mp3" autoplay controls></audio>
-    </main>
-    <nav id="navSidebar">
-      <h2 class="navTitle">LINKS</h2>
-      <ul class="navLinks">
-        <li> <a href="/">Home</a> </li>
-        <li> <a href="/about/">About</a> </li>
-        <li> <a href="/journal/">Journal</a> </li>
-        <li> <a href="/compendium/">Compendium</a> </li>
-        <li> <a href="/guestbook/">Guestbook</a> </li>
-        <li> <a href="/contact/">Contact</a> </li>
-      </ul>
-    </nav>
+    <div id="content">
+      <aside>
+        <section class="mainNav">
+          <h1>Quick Links</h1>
+          <ul>
+            <li><a href="https://twitter.com/UmJammerRammy/">Twitter</a></li>
+            <li><a href="https://discordapp.com/users/981376318077796413/">Discord</a></li>
+            <li><a href="mailto:webmaster@hax0r.lol">Email</a></li>
+          </ul>
+        </section>
+        <section>
+          <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=umjammerrammy" defer></script>
+          <a href="https://status.cafe/users/umjammerrammy"><img src="https://status.cafe/users/umjammerrammy/badge.png" alt="Status Cafe Profile"/></a>
+        </section>
+        <section class="nopad">
+          <audio src="https://b.catgirlsare.sexy/Uyv-9rBw2X8U.mp3" controls autoplay loop></audio>
+          <div class="marquee">
+            <p>Now Playing: Lurking in the Darkness</p>
+          </div>
+        </section>
+      </aside>
+      <main>
+        <section style="display: flex; flex-direction: column; align-items: center; gap: var(--gap);">
+          <h1 style=" margin-top: 20px;">All who enter are not guaranteed a safe return...</h1>
+          <p style=" margin-bottom: 40px;">Proceed at your own risk!!!</p>
+          <div style="display: flex; justify-content: center; gap: 100px; width: 100%">
+            <a href="/home.html"><img src="/img/skeletons/skullenter.gif" width="150px"></a>
+            <a href="https://en.wikipedia.org/wiki/Cowardice"><img src="/img/skeletons/skullflee.gif" width="150px"></a>
+          </div>
+          <div style="display: flex; justify-content:center; align-items:flex-start;">
+            <p><img class="embed" src="/img/icons/beware.gif">
+            <img class="embed" src="/img/icons/signbanghead.gif">
+            UNDER CONSTRUCTION!!!!!!
+            <img class="embed" src="/img/icons/signbanghead.gif">
+            <img class="embed" src="/img/icons/beware.gif"></p>
+          </div>
+        </section>
+      </main>
+    </div>
     <footer>
-      <p class="footerL">Jamie Wynn, 2021</p>
-      <p class="footerR"> <a href="https://github.com/UmJammerRammy/Website">Source</a> </p>
+      <p>Jamie Wynn, 2022</p>
+      <a href="https://github.com/UmJammerRammy/Website">Source</a>
     </footer>
   </body>
 </html>

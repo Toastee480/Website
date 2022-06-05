@@ -3,69 +3,107 @@
   <head>
     <meta charset="utf-8">
     <title>Home</title>
-    <link rel="stylesheet" href="/css/base.css">
-    <audio src="https://b.catgirlsare.sexy/Pl-KrZvMI75n.mp3" autoplay></audio>
+    <link rel="stylesheet" href="/css/master.css">
+    <style media="screen">
+      :root {
+        --gap: 10px;
+        --bg: #000000;
+        --border: double #ff3300 4px;
+        --border-radius: 5px;
+        --bullet-img: url(/img/skeletons/skullspin.gif);
+      }
+      @font-face {font-family: "Main"; src: url(/font/alagard.ttf);}
+      @font-face {font-family: "Heading"; src: url(/font/GothicPixels.ttf);}
+      body {
+        background: linear-gradient(rgba(0, 0, 0, 1), rgba(25, 0, 0, 0.8)),
+        url(/img/bgfire3.jpg) repeat top left;
+        font-size: 1em; color: #ffffff;
+      }
+      a {color: #ff0000;}
+      #statuscafe {
+        padding-bottom: 10px;
+        background-color: black;
+      }
+      #statuscafe-username {
+        margin-bottom: .5em;
+      }
+      #statuscafe-content {
+        margin: 0;
+      }
+    </style>
   </head>
   <body>
+    <script src="./oneko.js"></script>
     <header>
-      <h1>SAMPLE PAGE</h1>
+      <img src="/img/torch.gif">
+      <img src="/img/title.gif">
+      <img src="/img/torch.gif">
     </header>
     <div id="content">
       <aside>
         <section class="mainNav">
-          <h2>Links</h2>
-          <a href="#">Here's</a>
-          <a href="#">A</a>
-          <a href="#">List</a>
-          <a href="#">Of</a>
-          <a href="#">Links!</a>
-          <a href="#">You</a>
-          <a href="#">Can</a>
-          <a href="#">Have</a>
-          <a href="#">A</a>
-          <a href="#">Lot</a>
-          <a href="#">Ok you get it</a>
+          <h1>Links</h1>
+          <ul>
+            <li><a href="/home.html">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Journal</a></li>
+            <li><a href="#">Cool Links</a></li>
+            <li><a href="#">Guestbook</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </section>
+        <section style="display: flex; flex-direction: column; align-items: center;">
+          <p>I'm Feeling:</p>
+          <a href="https://www.imood.com/users/UmJammerRammy"><img src="https://moods.imood.com/display/uname-UmJammerRammy/fg-ffffff/bg-ff3300/imood.gif"></a>
+        </section>
+        <section>
+          <div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div><script src="https://status.cafe/current-status.js?name=umjammerrammy" defer></script>
+          <a href="https://status.cafe/users/umjammerrammy"><img src="https://status.cafe/users/umjammerrammy/badge.png" alt="Status Cafe Profile"/></a>
         </section>
         <section class="nopad">
-          <img class="block" src="/img/skeletons/skullflee.gif" width="100%">
+          <audio src="https://b.catgirlsare.sexy/Pl-KrZvMI75n.mp3" controls autoplay loop></audio>
+          <div class="marquee">
+            <p>Now Playing: Korn - Got the Life</p>
+          </div>
         </section>
       </aside>
       <main>
-        <section>
-          <h2>This is a Content Section!</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </section>
-        <section>
-          <h2>This is Another Content Section!</h2>
-          <p>With some gifs!</p>
-          <img src="img/skeletons/skelewalk.gif" alt="">
-          <img src="img/skeletons/skelewalk.gif" alt="">
-          <img src="img/skeletons/skelewalk.gif" alt="">
-          <img src="img/skeletons/skelewalk.gif" alt="">
-        </section>
-        <section>
-          <h2>And Another One!</h2>
-          <p>This one is just to show that the navbar can hang above the rest of
-          the page idk theres not much to this one really u already saw the
-          important parts but this is still important i guess but only for the
-          navbar not this part of the site ok thanks :)))))</p>
-          <img src="/img/nav/emailkitty.gif" alt="">
-          <img src="/img/nav/emailkitty.gif" alt="">
-          <img src="/img/nav/emailkitty.gif" alt="">
-          <img src="/img/nav/emailkitty.gif" alt="">
-          <img src="/img/nav/emailkitty.gif" alt="">
-          <img src="/img/nav/emailkitty.gif" alt="">
-          <img src="/img/nav/emailkitty.gif" alt="">
-          <img src="/img/nav/emailkitty.gif" alt="">
-          <img src="/img/nav/emailkitty.gif" alt="">
-          <img src="/img/nav/emailkitty.gif" alt="">
-          <img src="/img/nav/emailkitty.gif" alt="">
+        <section style="display: flex; flex-direction: column; align-items: center;">
+          <div style="display: flex; justify-content:center; align-items:flex-start;">
+            <p><img class="embed" src="/img/icons/beware.gif">
+            <img class="embed" src="/img/icons/signbanghead.gif">
+            UNDER CONSTRUCTION!!!!!!
+            <img class="embed" src="/img/icons/signbanghead.gif">
+            <img class="embed" src="/img/icons/beware.gif"></p>
+          </div>
+          <img src="img/bar-cat.gif" width="100%">
+          <div style="display: flex; align-items: flex-start;">
+            <img src="/img/skeletons/skeletonhang.gif" alt="">
+            <div>
+              <h1>Welcome, Traveler!</h1>
+              <p>Welcome to my website! My name is Jamie, and this is my personal
+              website, created both as a hobby project and as a way of distancing
+              myself from the corporate web and creating something more personal
+              and unique. Its still under HEAVY construction (This is my 4th layout
+              design lol) so expect some things to break or change, but I hope you
+              enjoy your stay anyway!</p>
+              <br>&nbsp;
+              <h1>Other Links</h1>
+              <p>For now, here's a list of places you can contact me!</p>
+              <ul>
+                <li><a href="https://twitter.com/UmJammerRammy/">Twitter</a></li>
+                <li><a href="https://discordapp.com/users/981376318077796413/">Discord</a></li>
+                <li><a href="mailto:webmaster@hax0r.lol">webmaster@hax0r.lol</a></li>
+              </ul>
+            </div>
+          </div>
         </section>
       </main>
     </div>
     <footer>
-      <h2>Footer</h2>
-      <p>idk u can put like whatever here ill prob link to source</p>
+      <p>Jamie Wynn, 2022</p>
+      <a href="https://github.com/UmJammerRammy/Website">Source</a>
     </footer>
   </body>
 </html>
