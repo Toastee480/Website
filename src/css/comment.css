@@ -1,0 +1,10 @@
+.home-desc, .likes, .admin-link, .hcb-like, #hcb_file_label {display: none!important;}
+.comment, blockquote {margin-bottom: 5px!important;}
+.hcb-comment-body {margin-top: 5px!important;}
+#hcb_msg {margin: 5px!important;}
+#hcb_submit {background-color: black!important; font-family: "Alagard"!important; border: double 5px!important; padding: 5px!important; text-decoration: underline!important; color: #b366ff!important;}
+#hcb_submit, .hcb-comment-body, .hcb-flag, .hcb-reply, .author-name, #hcb_msg, #no_comments {font-family: "Alagard"!important; font-size: 1em!important;}
+.date {font-family: "alagard"; font-size: 0.8em!important;}
+#hcb_form_website, #hcb_form_name, #hcb_form_content {padding: 5px!important; width: 200px; font-family: "Alagard"!important;}
+#HCB_comment_form_box {padding: 0px!important;}
+::placeholder {font-family: "Alagard"; font-size: 1em;}
