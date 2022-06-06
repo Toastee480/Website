@@ -32,6 +32,9 @@ section {
   border: var(--border); border-radius: var(--border-radius);
   background-color: var(--bg); padding: 15px 10px 20px 10px;
 }
+section.scrollhori {display: flex; flex: initial; overflow: auto;}
+section.scrollvert {display: flex; flex: initial; overflow: auto; flex-direction: column;}
+.scroll {display: flex; min-height: min-content; flex-direction: inherit;}
 section.nopad {padding: 0px;}
 section.mainNav {display: flex; flex-direction: column;}
 footer {

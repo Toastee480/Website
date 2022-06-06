@@ -16,6 +16,11 @@ body {
 
 p {
   line-height: 1.3em; /*I find the default HTML line-height tends to be a bit claustrophobic for main text*/
+  text-indent: 1.5em;
+}
+
+p.noindent {
+  text-indent: 0em;
 }
 
 hr {
