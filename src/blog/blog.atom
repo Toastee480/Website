@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title>Jamie's Journal</title>
+  <subtitle>Blog of Jamie Wynn, also known as UmJammerRammy</subtitle>
+  <link href="https://umjammerrammy.neocities.org/blog"/>
+  <updated>2022-06-05T20:42:02Z</updated>
+  <author>
+    <name>Jamie Wynn</name>
+    <email>journal@hax0r.lol</email>
+    <uri>https://umjammerrammy.neocities.org/blog</uri>
+  </author>
+  <id>https://umjammerrammy.neocities.org/blog</id>
+
+  <entry>
+    <title>Test Entry</title>
+    <content>https://umjammerrammy.neocities.org/blog/posts/2020-11-10-Post-Template.html</content>
+    <id>https://umjammerrammy.neocities.org/blog/2020-11-10-Post-Template.html</id>
+    <updated>2022-06-05T20:42:02Z</updated>
+    <summary>A test entry for my atom feed</summary>
+  </entry>
+
+</feed>
