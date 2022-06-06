@@ -10,6 +10,7 @@ img {image-rendering: pixelated; image-rendering: -moz-crisp-edges; image-render
 img.block {display: block;}
 div.imgrow {display: flex; flex-flow: row wrap;}
 img.embed {height: 1em;}
+img.h1embed {height: 1.5em;}
 br {content: '\A'; display: contents; white-space: pre;}
 .break {flex-basis: 100%; height: 0;}
 
