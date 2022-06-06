@@ -14,8 +14,17 @@
 
   <entry>
     <title>Test Entry</title>
-    <link rel="alternate" href="https://umjammerrammy.neocities.org/blog/posts/2020-11-10-Post-Template.html" >
+    <link href="https://umjammerrammy.neocities.org/blog/posts/2020-11-10-Post-Template.html">
     <id>https://umjammerrammy.neocities.org/blog/2020-11-10-Post-Template.html</id>
+    <updated>2022-06-05T20:42:02Z</updated>
+    <summary>A test entry for my atom feed</summary>
+    <content>A  test entry for my atom feed</content>
+  </entry>
+
+  <entry>
+    <title>Test Entry</title>
+    <link href="https://umjammerrammy.neocities.org/blog/posts/">
+    <id>https://umjammerrammy.neocities.org/blog/posts/2020-11-10-Post-Template.html</id>
     <updated>2022-06-05T20:42:02Z</updated>
     <summary>A test entry for my atom feed</summary>
     <content>A  test entry for my atom feed</content>
