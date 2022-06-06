@@ -22,12 +22,12 @@
   </entry>
 
   <entry>
-    <title>Test Entry</title>
+    <title>Test Entry 2</title>
     <link href="https://umjammerrammy.neocities.org/blog/posts/">
     <id>https://umjammerrammy.neocities.org/blog/posts/2020-11-10-Post-Template.html</id>
-    <updated>2022-06-05T20:42:02Z</updated>
-    <summary>A test entry for my atom feed</summary>
-    <content>A  test entry for my atom feed</content>
+    <updated>2022-06-05T21:16:02Z</updated>
+    <summary>A (second) test entry for my atom feed</summary>
+    <content>A (second) test entry for my atom feed</content>
   </entry>
 
 </feed>
