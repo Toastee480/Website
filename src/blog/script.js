@@ -34,6 +34,7 @@ let postsArray = [
 //[ "posts/2020-11-10-Special-Characters-Example.html", encodeURI( 'Spéci@l "Character\'s" Examp|e' ) ]
 //[ "posts/2020-11-10-My-Third-Post-Example.html" ],
 //[ "posts/2020-11-10-My-Second-Post-Example.html" ],
+[ "posts/2022-06-07-A-Beginners-Guide-to-Piracy.html", encodeURI('A Beginner\'s Guide to Piracy' ) ],
 [ "posts/2022-06-05-What-is-This.html", encodeURI('What is This?') ]];
 
 //-----------------------------
@@ -54,7 +55,8 @@ if ( url.includes("posts/") ) {
 //Write the Header HTML, a series of list items containing links.
 let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' +
 '<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
-'<li><a href="' + relativePath + '/about.html">About</a></li> </ul>';
+'<li><a href="' + relativePath + '/about.html">About</a></li>' +
+'<li><a href="' + relativePath + '/blog.xml">Subscribe to RSS</a></li> </ul>';
 
 //Write the Footer HTML, which has information about the blog.
 let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>Zonelets</a>, and hosted by <a href='https://neocities.org/'>Neocities!</a></p>";
