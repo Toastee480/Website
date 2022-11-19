@@ -16,7 +16,7 @@
 
 let blogName = "Jamie's Journal";
 let authorName = "Jamie Wynn";
-let authorLink = "https://umjammerrammy.neocities.org/contact.html"; // Enter your website, social media, etc. Some way for people to tell you they like your blog! (Leaving it empty is okay too)
+let authorLink = "../about.html"; // Enter your website, social media, etc. Some way for people to tell you they like your blog! (Leaving it empty is okay too)
 
 //-----------------------------
 
@@ -56,7 +56,8 @@ if ( url.includes("posts/") ) {
 let headerHTML = '<ul> <li><a href="' + relativePath + '/index.html">Home</a></li>' +
 '<li><a href="' + relativePath + '/archive.html">Archive</a></li>' +
 '<li><a href="' + relativePath + '/about.html">About</a></li>' +
-'<li><a href="' + relativePath + '/blog.xml">Subscribe to RSS</a></li> </ul>';
+'<li><a href="' + relativePath + '/blog.xml">Subscribe to RSS</a></li>' +
+'<li><a href="../index.html">Return</a></li> </ul>';
 
 //Write the Footer HTML, which has information about the blog.
 let footerHTML = "<hr><p>" + blogName + " is written by <a href='" + authorLink + "'>" + authorName + "</a>, built with <a href='https://zonelets.net/'>Zonelets</a>, and hosted by <a href='https://neocities.org/'>Neocities!</a></p>";

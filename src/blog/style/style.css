@@ -1,14 +1,14 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
-@font-face {font-family: "Alagard"; src: url(/font/alagard.ttf);}
-@font-face {font-family: "GothicPixels"; src: url(/font/GothicPixels.ttf);}
+@font-face {font-family: "Alagard"; src: url(../../font/alagard.ttf);}
+@font-face {font-family: "GothicPixels"; src: url(../../font/GothicPixels.ttf);}
 @import "http://terribleideas.neocities.org/badideas.css";
 
 body {
   background-color: black;
   background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(50, 0, 100, 0.4)),
-  url(/img/bgstar.gif) repeat top left;
+  url(../../img/bgstar.gif) repeat top left;
   background-attachment: fixed;
   font-size: 1em;
   font-family: "Alagard", "Times New Roman", serif;
